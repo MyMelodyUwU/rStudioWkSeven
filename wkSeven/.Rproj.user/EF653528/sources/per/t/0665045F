@@ -1,0 +1,27 @@
+{
+    "id": "0665045F",
+    "path": "~/GitHub/rStudioWkSeven/wkSeven/hello.Rmd",
+    "project_path": "hello.Rmd",
+    "type": "r_markdown",
+    "hash": "72557901",
+    "contents": "",
+    "dirty": false,
+    "created": 1632784365960.0,
+    "source_on_save": false,
+    "relative_order": 3,
+    "properties": {
+        "tempName": "Untitled3",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "148,16",
+        "scrollLine": "123"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1632785187,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1632785187581,
+    "read_only": false,
+    "read_only_alternatives": []
+}

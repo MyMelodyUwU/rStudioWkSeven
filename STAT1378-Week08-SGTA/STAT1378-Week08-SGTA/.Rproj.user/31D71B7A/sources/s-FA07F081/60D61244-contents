@@ -1,0 +1,58 @@
+---
+title: "Exercise 1"
+date:  "`r lubridate::today()`"
+subtitle: "html & pdf output"
+output: 
+ pdf_document : default
+---
+
+* A `pdf` document uses [latex](https://www.latex-project.org/) under the hood to compile a `.tex` file to `pdf`.
+* In LaTeX a table is written as (we will explain the syntax next week; we are just trying to highlight different code react to different output structure)
+
+
+\begin{center}
+\begin{tabular}{rr}
+\hline
+Var1 & Var2 \\
+\hline
+1 & 2 \\
+3 & 4\\
+\hline
+\end{tabular}
+\end{center}
+
+* A markdown table is written as (see source Rmd file)
+
+| Var1| Var2|
+|----:|----:|
+|    1|    2|
+|    3|    4|
+
+
+* This is a html table:
+
+<table>
+ <thead>
+  <tr>
+   <th style="text-align:right;"> Var1 </th>
+   <th style="text-align:right;"> Var2 </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:right;"> 1 </td>
+   <td style="text-align:right;"> 2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 3 </td>
+   <td style="text-align:right;"> 4 </td>
+  </tr>
+</tbody>
+</table>
+
+
+## Challenges
+
+1. `knit` this document to get a pdf output
+1. Change this document output format to `html`.
+1. **What happened to the table written in LaTeX?**
