@@ -1,9 +1,11 @@
 ---
 title: "Exercise 1"
-date:  "`r lubridate::today()`"
-subtitle: "html & pdf output"
-output: 
- pdf_document : default
+date: "`r lubridate::today()`"
+subtitle: html & pdf output
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
 ---
 
 * A `pdf` document uses [latex](https://www.latex-project.org/) under the hood to compile a `.tex` file to `pdf`.

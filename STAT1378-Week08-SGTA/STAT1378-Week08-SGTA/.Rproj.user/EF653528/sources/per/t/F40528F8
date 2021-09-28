@@ -3,7 +3,7 @@
     "path": "~/GitHub/rStudioWkSeven/STAT1378-Week08-SGTA/STAT1378-Week08-SGTA/exercise-01.Rmd",
     "project_path": "exercise-01.Rmd",
     "type": "r_markdown",
-    "hash": "0",
+    "hash": "2194339983",
     "contents": "",
     "dirty": false,
     "created": 1632785315500.0,
@@ -11,14 +11,16 @@
     "relative_order": 2,
     "properties": {
         "source_window_id": "",
-        "Source": "Source"
+        "Source": "Source",
+        "cursorPosition": "45,41",
+        "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1632785262,
+    "lastKnownWriteTime": 1632785653,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1632785262,
+    "last_content_update": 1632785653870,
     "read_only": false,
     "read_only_alternatives": []
 }
